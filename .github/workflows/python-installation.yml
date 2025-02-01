@@ -25,5 +25,5 @@ jobs:  # This workflow contains a single job called "build"
     - name: Set up Python
       uses: actions/setup-python@v5
       with:
-        py-version: ${{ matrix.py-version }}
+        python-version: ${{ matrix.py-version }}
         
